@@ -1,0 +1,15 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 5px;
+    /* display: inline;
+    styling will not apply here because inline element height width apply nahi hoti and padding margin bhi left */
+    /* if we want block element inline bhi ban jaye aur uske styling bhi apply ho to use diaply:inline-block */
+    display: inline-block;
+}
+
+#hird {
+    display: none;
+}

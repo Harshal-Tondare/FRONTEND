@@ -1,0 +1,16 @@
+div{
+    background-color:yellow;
+}
+/* form {
+    background-color: red;
+} */
+/* input box bydefault does not inherit from their parent */
+input {
+    background-color: inherit;
+}
+button {
+    background-color: inherit;
+}
+button:hover {
+    background-color: red;;
+}

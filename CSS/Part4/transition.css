@@ -1,0 +1,16 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(12, 245, 12);
+    /* transition-duration:1s;
+    transition-delay: 1s; */
+    margin-top: 10px;
+    margin: 0 auto;
+    transition: margin-top 2s ease-in 0.2s;
+}
+
+div:hover {
+    /* background-color: black;
+    border-radius: 50%; */
+    margin-top:400px;
+}

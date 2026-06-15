@@ -1,0 +1,98 @@
+h3{
+    background-color: antiquewhite !important;
+}
+*{
+    font-family: "Courier New";
+}
+h1,h3{
+    color: #b92b27;
+}
+h3{
+    text-decoration: underline;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color:#b92b27 ;
+    color: white;
+}
+.upvote{
+    background-color: green;
+    color: white;
+}
+
+/* descendant selecter */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+    color: hotpink;
+}
+
+/* Adjacent Sibling Combinator
+Eg - Heading3 that comes immediately after any paagraph
+p + h3{
+     .......   }
+*/
+
+/* child selector */
+div > input{
+    background-color: rgb(252, 220, 139);
+}
+/* attribute selector */
+input[type]{
+    background-color: white;
+}
+
+#myId p{
+    color: green;
+}
+/* pseudo classss */
+button:hover {
+    background-color: black;
+    color: white;
+} 
+h3:hover{
+    text-decoration: overline;
+}
+
+button:active{
+    background-color: hotpink ;
+    color: black;
+}
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked +label{
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+
+/* pseudo element ---> style a specific part of an selected element */
+h1::first-letter{
+    color: black;
+}
+p::first-line{
+    color: black;
+}
+p::selection{
+    background-color: rgb(243, 67, 240);
+}
+/* CSS cascading style sheet order of css applied matters  also if an html doc have many css file attached the last one will be dominent */
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: rgb(109, 180, 238);
+} 
+
+/* !important. ---> these property can never be changed */

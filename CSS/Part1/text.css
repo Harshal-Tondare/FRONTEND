@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    border: solid;
+    /* text alignment is relative to the parent ie rel to width of h1 */
+    width: 80%;
+    text-decoration: blueviolet dashed underline;
+    letter-spacing: 5px;
+}
+h3{
+    text-align: end;
+    /* here start means left side in english / end means right */
+}
+p{
+    text-align: justify;
+    font-weight: 900;
+    line-height: 2.1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-weight: 800;
+    text-decoration: purple wavy underline;
+}
+/* uses of text decoration
+1)underline
+2)line throgh
+3)ancher tag underline remove */
